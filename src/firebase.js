@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCc0FfFcl4Lgy79ijRmAg997EDa981Y5q4",
-    authDomain: "matricula-app-bf866.firebaseapp.com",
-    projectId: "matricula-app-bf866",
-    storageBucket: "matricula-app-bf866.firebasestorage.app",
-    messagingSenderId: "72086645143",
-    appId: "1:72086645143:web:0cd6141df706e07ba77cd2"
+  apiKey: "AIzaSyDnyLnf0qeTxCtjV4hracOHrr29CGh0uew",
+  authDomain: "matricula-ce3d5.firebaseapp.com",
+  projectId: "matricula-ce3d5",
+  storageBucket: "matricula-ce3d5.firebasestorage.app",
+  messagingSenderId: "898270362327",
+  appId: "1:898270362327:web:4d0f2d00b586c96ddb0e92"
 };
 
 const app = initializeApp(firebaseConfig);
