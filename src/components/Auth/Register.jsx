@@ -18,8 +18,8 @@ export default function Register() {
       setError('Todos los campos son obligatorios.');
       return;
     }
-    if (!/^[^@\s]+@libre\.co$/.test(email)) {
-      setError('El correo debe ser institucional y terminar en @libre.co');
+    if (!/^[^@\s]+@utp\.co$/.test(email)) {
+      setError('El correo debe ser institucional y terminar en @utp.co');
       return;
     }
     const res = register({ nombre, email, password, carrera: 'ingenieria_sistemas' });
