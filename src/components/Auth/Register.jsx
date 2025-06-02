@@ -22,11 +22,11 @@ export default function Register() {
       setError('El correo debe ser institucional y terminar en @libre.co');
       return;
     }
-    //  Validación: bloquear . _ /
-    if (/[./_]/.test(password)) {
-    setError('La contraseña no puede contener ".", "_" ni "/".');
-    return;
-   }
+  //   //  Validación: bloquear . _ /
+  //   if (/[./_]/.test(password)) {
+  //   setError('La contraseña no puede contener ".", "_" ni "/".');
+  //   return;
+  //  }
     const res = register({ nombre, email, password, carrera: 'ingenieria_sistemas' });
     if (res.success) {
       navigate('/dashboard');

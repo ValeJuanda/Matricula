@@ -110,3 +110,14 @@ export default function Profile() {
     </div>
   );
 }
+
+//  NO MOSTRAR CONTRASEÑA EN PERFIL
+// <div className="mb-6">
+//   <label className="block mb-1 font-semibold text-sm text-gray-700">Contraseña</label>
+//   <input
+//     type="text"
+//     value="********"
+//     className="w-full border border-gray-200 px-3 py-2 rounded bg-gray-100 cursor-not-allowed text-black"
+//     disabled
+//   />
+// </div>
