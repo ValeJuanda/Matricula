@@ -38,7 +38,7 @@ export default function Matricula() {
     );
   }
 
-  const creditosRestantes = 18 - user.creditosMatriculados;
+  const creditosRestantes = 15 - user.creditosMatriculados;
 
   const horarioChoca = (dia, horaInicio, horaFin) => {
     for (let mat of user.matriculas) {
