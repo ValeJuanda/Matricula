@@ -79,7 +79,7 @@ export default function Matricula() {
         });
         return;
       }
-      if (user.creditosMatriculados + curso.creditos > 18) {
+      if (user.creditosMatriculados + curso.creditos > 14) {
         await CustomSwal.fire({
           icon: 'error',
           title: 'Límite de créditos excedido',
